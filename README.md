@@ -23,3 +23,7 @@ At the botom of the file  "/etc/rc.local"  before  "exit 0"
 
 The "&" means it run in background.
 
+
+![Screenshot](autoFanStartRaspiHtop.png)
+
+https://raw.githubusercontent.com/espectroPW/autoFanStartRaspi/main/autoFanStartRaspiHtop.png

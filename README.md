@@ -26,4 +26,3 @@ The "&" means it run in background.
 
 ![Screenshot](autoFanStartRaspiHtop.png)
 
-https://raw.githubusercontent.com/espectroPW/autoFanStartRaspi/main/autoFanStartRaspiHtop.png

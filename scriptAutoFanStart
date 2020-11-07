@@ -13,8 +13,11 @@ while true; do
 
 temperatura=$(vcgencmd measure_temp | egrep -o '[0-9]*\.[0-9]*')
 
-
+#converting float to int
 temp=${temperatura%.*}
+
+
+#display the actual temperature
 
 echo "Temperatura:$temp"
 
@@ -52,6 +55,7 @@ then
 
 fi
 
+#sleep time
 
 sleep 3
 echo "*****************"

@@ -21,8 +21,10 @@ currenttime=$(date +%H:%M)
 echo "Godzina: $currenttime"
 if [[ "$currenttime" > "23:00" ]] || [[ "$currenttime" < "07:30" ]]; then
   temp=$((temp -= 5))
+  echo "Night Mode"
 else
   temp=$((temp))
+  echo "Day mode"
 fi
 
 
